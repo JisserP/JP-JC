@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   const businesses = [
-    { id: 1, title: 'Business Idea 1', description: 'Une brève description du concept 1 pour susciter l\'intérêt.', path: '/business/1', color: 'bg-blue-50 text-blue-700' },
-    { id: 2, title: 'Business Idea 2', description: 'Une brève description du concept 2 pour susciter l\'intérêt.', path: '/business/2', color: 'bg-green-50 text-green-700' },
-    { id: 3, title: 'Business Idea 3', description: 'Une brève description du concept 3 pour susciter l\'intérêt.', path: '/business/3', color: 'bg-purple-50 text-purple-700' },
-    { id: 4, title: 'Business Idea 4', description: 'Une brève description du concept 4 pour susciter l\'intérêt.', path: '/business/4', color: 'bg-orange-50 text-orange-700' },
-    { id: 5, title: 'Business Idea 5', description: 'Une brève description du concept 5 pour susciter l\'intérêt.', path: '/business/5', color: 'bg-rose-50 text-rose-700' },
+    { id: 1, title: 'Éco-Café Box', description: 'Abonnement mensuel de cafés de spécialité torréfiés localement et issus du commerce équitable, livrés dans des emballages 100% compostables.', path: '/business/1', color: 'bg-amber-50 text-amber-700' },
+    { id: 2, title: 'Luxe & Loc', description: 'Plateforme de location de vêtements et accessoires de créateurs pour événements spéciaux, favorisant une mode circulaire et accessible.', path: '/business/2', color: 'bg-stone-50 text-stone-700' },
+    { id: 3, title: 'SmartSpace', description: 'Mobilier modulable et multifonctionnel conçu spécifiquement pour optimiser l\'espace des petits appartements urbains sans compromis sur le design.', path: '/business/3', color: 'bg-cyan-50 text-cyan-700' },
+    { id: 4, title: 'DermaTech', description: 'Cosmétiques sur mesure formulés grâce à une analyse de la peau par IA via l\'appareil photo du smartphone de l\'utilisateur.', path: '/business/4', color: 'bg-fuchsia-50 text-fuchsia-700' },
+    { id: 5, title: 'Terroir Connect', description: 'Marketplace d\'épicerie fine mettant en relation directe les producteurs locaux et les consommateurs amateurs de produits du terroir authentiques.', path: '/business/5', color: 'bg-green-50 text-green-700' },
   ];
 
   return (
