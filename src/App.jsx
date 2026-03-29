@@ -9,7 +9,7 @@ import Business5 from './pages/Business5';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/JP-JC">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
