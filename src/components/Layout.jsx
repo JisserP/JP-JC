@@ -26,6 +26,9 @@ function Layout() {
                 <Link to="/business/5" className="border-transparent text-gray-500 hover:border-indigo-500 hover:text-indigo-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                   Business 5
                 </Link>
+                <Link to="/business/6" className="border-transparent text-gray-500 hover:border-indigo-500 hover:text-indigo-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                  Business 6
+                </Link>
               </div>
             </div>
           </div>
