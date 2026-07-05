@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import Business1 from './pages/Business1';
@@ -10,7 +10,7 @@ import Business6 from './pages/Business6';
 
 function App() {
   return (
-    <Router basename="/JP-JC">
+    <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
