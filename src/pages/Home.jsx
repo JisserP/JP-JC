@@ -7,6 +7,7 @@ function Home() {
     { id: 3, title: 'SmartSpace', description: 'Mobilier modulable et multifonctionnel conçu spécifiquement pour optimiser l\'espace des petits appartements urbains sans compromis sur le design.', path: '/business/3', color: 'bg-cyan-50 text-cyan-700' },
     { id: 4, title: 'DermaTech', description: 'Cosmétiques sur mesure formulés grâce à une analyse de la peau par IA via l\'appareil photo du smartphone de l\'utilisateur.', path: '/business/4', color: 'bg-fuchsia-50 text-fuchsia-700' },
     { id: 5, title: 'Terroir Connect', description: 'Marketplace d\'épicerie fine mettant en relation directe les producteurs locaux et les consommateurs amateurs de produits du terroir authentiques.', path: '/business/5', color: 'bg-green-50 text-green-700' },
+    { id: 6, title: 'SportEvent Pro', description: 'Agence spécialisée dans la création et l\'organisation d\'événements sportifs sur mesure : tournois amateurs, courses et team building.', path: '/business/6', color: 'bg-orange-50 text-orange-700' },
   ];
 
   return (
@@ -17,7 +18,7 @@ function Home() {
           <span className="block text-indigo-600 xl:inline">Business Innovants</span>
         </h1>
         <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Découvrez 5 concepts d'entreprise uniques, prêts à être développés. Cliquez sur chaque carte pour explorer les détails, le modèle économique et le marché cible.
+          Découvrez 6 concepts d'entreprise uniques, prêts à être développés. Cliquez sur chaque carte pour explorer les détails, le modèle économique et le marché cible.
         </p>
       </div>
 
